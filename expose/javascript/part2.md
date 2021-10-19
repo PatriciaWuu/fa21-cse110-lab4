@@ -13,5 +13,5 @@
 13. A. '32', since interger 2 map to sring 3; B.2, string '3' convert to number; C.3, + will convert null to 0; D.'3null', + of two string; E.4, true convert to 1 as interfer; F. 0, False convert to 0 as number, so does null; G. '3undefined', + of two string; H. NaN, since undefined will convert to NaN as number
 14. A. true, '2' becomes number 2; B. false, since string is compare letter by letter, 2 is larger than 1; C.true, '2' become number 2; D.false since ===check the type of two side, these two are not 1 type; E. false, since number of true is 1; F. true since boolean(2) is true.
 15. The difference between == and === is, === check equality without type conversion, and == check with.
-17.
-19.
+17. It will return array of [2,4,6]. First, modifyArray called its function, which doSomething is called callback in modifyArray. Then in modifyArray, doSomething is called wehn callback was call, which double each element of array and push to newArray.
+19.It print 1 4 3 2.
